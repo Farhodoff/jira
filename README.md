@@ -129,5 +129,3 @@ The application should now be running.
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-# jira
-# jira

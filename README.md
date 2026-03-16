@@ -1,36 +1,3 @@
-# Jira Clone (SaaS Project Management Platform)
-
-A full-stack project management and collaboration platform inspired by Jira and Trello. This application enables teams to seamlessly manage workspaces, track tasks across Kanban boards, and collaborate in real-time.
-
----
-
-## 🚀 Features
-
-### **Authentication & Role Management**
-*   Secure **JWT-based** authentication (Register, Login, Session Management).
-*   Role-based access control (Admin, User).
-*   Encrypted passwords using `bcryptjs`.
-
-### **Workspace & Project Organization**
-*   Create distinct projects/workspaces.
-*   Manage team members within each project.
-*   Customized project keys (e.g., `PR-1`, `TASK-5`) and branding colors.
-
-### **Real-Time Kanban Board**
-*   Interactive drag-and-drop task management powered by `@hello-pangea/dnd`.
-*   **Real-time synchronization** across all connected clients via `Socket.IO`. (If user A moves a task to 'Done', user B sees it instantly without refreshing).
-*   Columns for `To Do`, `In Progress`, and `Done` statuses.
-
-### **Advanced Task Management**
-*   Create, view, edit, and delete tasks.
-*   Assign tasks to specific team members.
-*   Visual indicators for task priorities (`Low`, `Medium`, `High`, `Critical`).
-*   Due dates and attachment tracking.
-
-### **Collaboration & Notifications**
-*   Real-time commenting system with user avatars and timestamps.
-*   Mention users in comments (coming soon).
-*   In-app notification system tracking task assignments, updates, and mentions.
 
 ---
 
@@ -73,6 +40,40 @@ A full-stack project management and collaboration platform inspired by Jira and 
 ![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
 
 ---
+# Jira Clone (SaaS Project Management Platform)
+
+A full-stack project management and collaboration platform inspired by Jira and Trello. This application enables teams to seamlessly manage workspaces, track tasks across Kanban boards, and collaborate in real-time.
+
+---
+
+## 🚀 Features
+
+### **Authentication & Role Management**
+*   Secure **JWT-based** authentication (Register, Login, Session Management).
+*   Role-based access control (Admin, User).
+*   Encrypted passwords using `bcryptjs`.
+
+### **Workspace & Project Organization**
+*   Create distinct projects/workspaces.
+*   Manage team members within each project.
+*   Customized project keys (e.g., `PR-1`, `TASK-5`) and branding colors.
+
+### **Real-Time Kanban Board**
+*   Interactive drag-and-drop task management powered by `@hello-pangea/dnd`.
+*   **Real-time synchronization** across all connected clients via `Socket.IO`. (If user A moves a task to 'Done', user B sees it instantly without refreshing).
+*   Columns for `To Do`, `In Progress`, and `Done` statuses.
+
+### **Advanced Task Management**
+*   Create, view, edit, and delete tasks.
+*   Assign tasks to specific team members.
+*   Visual indicators for task priorities (`Low`, `Medium`, `High`, `Critical`).
+*   Due dates and attachment tracking.
+
+### **Collaboration & Notifications**
+*   Real-time commenting system with user avatars and timestamps.
+*   Mention users in comments (coming soon).
+*   In-app notification system tracking task assignments, updates, and mentions.
+
 
 ## 🛠️ Installation & Setup
 

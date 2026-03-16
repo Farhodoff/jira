@@ -34,26 +34,43 @@ A full-stack project management and collaboration platform inspired by Jira and 
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
 
-### **Frontend**
-*   **Framework:** React 19 (Vite)
-*   **Styling:** Tailwind CSS (Premium Dark Theme with Glassmorphism)
-*   **State Management:** Zustand
-*   **Routing:** React Router DOM v7
-*   **Icons:** Lucide React
-*   **HTTP Client:** Axios (with interceptors)
-*   **Real-time:** Socket.IO Client
-*   **Drag & Drop:** `@hello-pangea/dnd`
+### 🎨 Frontend
 
-### **Backend**
-*   **Runtime:** Node.js
-*   **Framework:** Express.js
-*   **Database:** MongoDB & Mongoose
-*   **Authentication:** JSON Web Tokens (JWT)
-*   **Real-time:** Socket.IO
-*   **Media Storage:** Cloudinary & Multer (Setup for attachments/avatars)
-*   **Development:** Nodemon, dotenv
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-FF6B35?style=for-the-badge&logo=react&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge&logo=lucide&logoColor=white)
+
+### ⚙️ Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![Bcrypt](https://img.shields.io/badge/bcryptjs-338AF3?style=for-the-badge&logo=letsencrypt&logoColor=white)
+
+### 🗄️ Database
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+
+### 🚀 DevOps
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### 🧰 Tools
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "name": "jira-clone-backend",
+  "name": "zyra-clone-backend",
   "version": "1.0.0",
   "description": "SaaS Project Management Platform - Backend API",
   "main": "src/index.js",

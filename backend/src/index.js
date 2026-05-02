@@ -6,6 +6,8 @@ const dotenv = require('dotenv');
 const helmet = require('helmet');
 const compression = require('compression');
 const path = require('path');
+const fs = require('fs');
+const morgan = require('morgan');
 const connectDB = require('./config/db');
 const setupSocket = require('./socket/socketHandler');
 
@@ -80,8 +82,12 @@ if (process.env.NODE_ENV === 'production') {
 
 // Global error handler
 app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).json({ message: err.message || 'Internal Server Error' });
+    console.error(process.env.NODE_ENV === 'production' ? err.message : err.stack);
+    const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
+    res.status(statusCode).json({
+        message: err.message || 'Internal Server Error',
+        stack: process.env.NODE_ENV === 'production' ? null : err.stack,
+    });
 });
 
 // Setup Socket.io
